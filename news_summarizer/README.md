@@ -68,4 +68,4 @@ keywords = ["your_keyword_1", "your_keyword_2", "your_keyword_3"]
 
 2. LLM Prompt TuningTo alter the tone or output formatting of your summary, adjust the prompt text inside your Basic LLM Chain Node:
 Switch the Prompt parameter to Define Below.
-Ensure that you instruct the LLM to write using raw HTML tags (e.g., <strong>, <p>) rather than standard markdown formatting flags like  or ###, preventing styling syntax errors in the final email view.
+Ensure that you instruct the LLM to write using raw HTML tags (e.g., ```<strong>```, ```<p>```) rather than standard markdown formatting flags like  or ###, preventing styling syntax errors in the final email view.
